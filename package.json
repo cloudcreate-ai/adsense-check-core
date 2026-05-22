@@ -1,6 +1,6 @@
 {
   "name": "@cloudcreate/adsense-check-core",
-  "version": "1.12.1-beta.0",
+  "version": "1.12.1",
   "description": "Core library for Google AdSense website compliance checking",
   "type": "module",
   "main": "./dist/index.js",
