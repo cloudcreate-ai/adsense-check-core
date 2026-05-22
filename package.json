@@ -1,0 +1,41 @@
+{
+  "name": "@cloudcreate/adsense-check-core",
+  "version": "1.0.0",
+  "description": "Core library for Google AdSense website compliance checking",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["adsense", "google", "website", "checker", "compliance"],
+  "license": "MIT",
+  "peerDependencies": {
+    "playwright": ">=1.50.0"
+  },
+  "peerDependenciesMeta": {
+    "playwright": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.15.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.0"
+  }
+}
