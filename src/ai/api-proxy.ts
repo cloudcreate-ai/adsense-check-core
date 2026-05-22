@@ -2,7 +2,7 @@
 // Calls /analyze/page, /analyze/compliance, /analyze/topic, /analyze/approval endpoints
 
 // Client version — set by the consumer (CLI/API) via configureApiProxy
-const DEFAULT_CLIENT_VERSION = '1.0.0';
+const DEFAULT_CLIENT_VERSION = '1.12.0';
 
 let proxyBase: string | undefined;
 let proxyKey: string | undefined;
