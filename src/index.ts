@@ -50,6 +50,13 @@ export type { PageSignals, SiteTypeResult } from './detector.js';
 // Scorer
 export { computePageAiScore, scorePage, scoreCategory, computeCompositeScore, computeSiteAiScore } from './scorer.js';
 
+// Checks
+export { checkContentQuality } from './checks/content.js';
+export { checkRequiredPages } from './checks/pages.js';
+export { checkSiteStructure } from './checks/structure.js';
+export { checkPerformance } from './checks/performance.js';
+export { checkPolicyCompliance } from './checks/policy.js';
+
 // Config
 export { loadConfig, saveConfig, getConfigPath, getGlobalConfigPath, DEFAULTS } from './config.js';
 export type { AdsenseConfig } from './config.js';
