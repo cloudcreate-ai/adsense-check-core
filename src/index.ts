@@ -30,6 +30,7 @@ export {
   configureApiProxy,
   isProxyEnabled,
 } from './ai/analyzer.js';
+export type { PageAiAnalysis, FullAiAnalysis } from './ai/analyzer.js';
 
 export { analyzeSiteTopic } from './ai/topic.js';
 export { estimateByRules, summarizeFinal } from './ai/approval.js';
