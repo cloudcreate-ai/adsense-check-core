@@ -2,6 +2,16 @@
   "name": "@cloudcreate/adsense-check-core",
   "version": "1.12.1",
   "description": "Core library for Google AdSense website compliance checking",
+  "homepage": "https://cloudcreate.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudcreate-ai/adsense-check-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudcreate-ai/adsense-check-core/issues",
+    "email": "contact@cloudcreate.ai"
+  },
+  "author": "CloudCreate <contact@cloudcreate.ai>",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

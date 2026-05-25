@@ -150,3 +150,9 @@ npm run typecheck    # Type check only
 ## License
 
 MIT
+
+## Links
+
+- Homepage: https://cloudcreate.ai
+- Issues: https://github.com/cloudcreate-ai/adsense-check-core/issues
+- Contact: contact@cloudcreate.ai
